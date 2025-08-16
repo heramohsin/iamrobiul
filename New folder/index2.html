@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="flex items-center justify-between p-4 bg-white shadow">
+    <!-- Logo -->
+    <div>
+        <img src="../assets/logo.png" alt="Logo" class="h-10">
+    </div> 
+
+    <!-- Navigation -->
+    <section>
+   <div class="flex flex-col sm:flex-row gap-4 bg-[#f5f7ff] p-4 min-h-screen">
+  <!-- Left column -->
+  <div class="flex flex-col gap-4">
+    <!-- Bloom Plant Card -->
+    <div class="relative w-72 h-40 rounded-lg overflow-hidden">
+      <img src="../assets/deal-bloom.png" alt="" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white text-center">
+        <h3 class="text-lg font-semibold">60% Off | Bloom Plant</h3>
+        <button class="mt-2 text-sm underline">Shop Now</button>
+      </div>
+    </div>
+
+    <!-- Ana Plant Card -->
+    <div class="relative w-72 h-40 rounded-lg overflow-hidden">
+      <img src="../assets/deal-ana.png" alt="Ana Plant" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white text-center">
+        <h3 class="text-lg font-semibold">30% Off | Ana Plant</h3>
+        <button class="mt-2 text-sm underlin">Shop Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Zabo Plant Card (Main) -->
+  <div class="relative flex-1 h-96 rounded-lg overflow-hidden">
+    <img src="../assets/deal-zabo.png" alt="Zabo Plant" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white text-center">
+      <h2 class="text-2xl font-bold">25% Off | Zabo Plant</h2>
+      <button class="mt-4 text-sm underline">Shop Now</button>
+    </div>
+  </div>
+</div>
+
+    </section>
+</header>
+
+</body>
+</html>
