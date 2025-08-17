@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="overflow-x-hidden">
     <header class="max-w-5xl m-auto justify-between flex items-center my-5 overflow-x-hidden">
         <div><img src="../assets/logo.png" alt=""></div> 
         <nav>
@@ -118,26 +118,83 @@
                 <p class="w-3/7 m-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
         </section>
-        <section class="m max-w-5xl m-auto flex justify-around gap-5 mb-24 mt-5">
-            <div class="flex flex-col gap-5 ">
-                 <img src="../assets/deal-bloom.png" alt=""  class="relative">
-                 <div class="absolute  flex flex-cow justify-center items-center inset-0">
-                    <h4 class="a">60% Off | Bloom Plant</h4>
-                    <h4 class="a">shop now</h4>
+        <section class="m max-w-5xl m-auto flex flex-col sm:flex-row justify-around gap-5 mb-24 mt-5">
+            <div class="flex flex-col gap-5 ">                 
+                 <div class="  flex flex-col justify-center items-center inset-0 relative">
+                    <img src="../assets/deal-bloom.png" alt=""  class="opacity-80 rounded-2xl">
+                   <div class="absolute flex flex-col justify-center items-center opacity-100">
+                     <h4 class="a font-bold">60% Off | Bloom Plant</h4>
+                    <h4 class="a underline font-bold">shop now</h4>
+                   </div>
                  </div>
-                 <img class="rounded-2xl" src="../assets/deal-ana.png" alt="">
+
+                 <div class="  flex flex-cow justify-center items-center inset-0 relative">
+                    <img src="../assets/deal-ana.png" alt=""  class="opacity-80 rounded-2xl">
+                   <div class="absolute flex flex-col justify-center items-center opacity-100">
+                     <h4 class="a font-bold">30% Off | Bloom Plant</h4>
+                    <h4 class="a underline font-bold">shop now</h4>
+                   </div>
+                 </div>
+                 
             </div>
-            <div class="h-96 rounded-lg overflow-hidden  relative">
+            <div class=" h-95 rounded-lg overflow-hidden  relative ">
                 <div class="absolute inset-0 flex flex-col justify-center items-center">
                     <h3 class="n font-bold">25% Off | Zabo Plant</h3>
                     <h4 class="n font-bold underline">shop now</h4>
                 </div>
 
-            <img class="" src="../assets/deal-zabo.png" alt="">
+            <img  src="../assets/deal-zabo.png" alt="" class=" " >
             </div>
         </section>
 
-    </main>
+        <section class="mb-7">
+           <div class="max-w-full m-auto relative flex justify-center items-center">
+              <img src="../assets/news-letter-bg.png" alt="">
     
+         <div class="absolute flex flex-col items-center">
+           <h1 class="text-4xl font-bold mb-5">Join the colorful Bunch</h1>
+      
+          <div class="flex">
+              <input type="email"  placeholder="Enter your email"  class="bg-amber-50 p-5 px-10 w-[400px] rounded-l-lg "   >
+              <button type="button"  class="bg-amber-500 p-5 px-10 w-[200px] text-white font-bold rounded-r-lg" > Subscribe </button>
+             </div>
+           </div>
+          </div>
+        </section>
+    </main>
+
+    <footer class="max-w-5xl m-auto">
+        <!-- -------footer-img------- -->
+       <div class="flex">
+          <div>
+            <img src="../assets/logo.png" alt="">
+            <h3 class="w-1/2">Indulge your senses with the beauty and fragrance of our fresh flower shop.</h3>
+         </div>
+         <nav>
+            <ul class="grid grid-cols-2 gap-y-6 gap-x-10">
+                <li>Home</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>FAQ</li>
+                <li>contact us</li>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Help Center</li>
+            </ul>
+         </nav>
+
+        <div class="flex flex-row gap-x-6">
+        <img class="h-10 w-10" src="../assets/icon-facebook.png" alt="">
+        <img class="h-10 w-10"  src="../assets/icon-linkedin.png" alt="">
+        <img class="h-10 w-10"  src="../assets/icon-twitter.png" alt="">
+        <img class="h-10 w-10"  src="../assets/icon-youtube.png" alt="">
+       </div>
+       </div>
+      
+    </footer>
+    
+
 </body>
 </html>
